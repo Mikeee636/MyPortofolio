@@ -116,7 +116,7 @@ export default function ProjectDetailPage({
                 style={{ fontFamily: "'Oswald', sans-serif" }}
                 className="text-xs font-semibold tracking-[0.3em] text-red-400 uppercase"
               >
-                {project.year} // {project.subtitle}
+                {project.year} {"//"} {project.subtitle}
               </span>
             </div>
 

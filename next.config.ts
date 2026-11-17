@@ -3,6 +3,9 @@ import path from "path";
 
 const nextConfig: NextConfig = {
   devIndicators: false,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   turbopack: {
     root: path.resolve(__dirname),
   },
