@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 115" width="490" height="115">
+  <defs>
+    <!-- Spider-Man Crimson Face Gradient with Gloss Sheen -->
+    <linearGradient id="spideyRedGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#ff4555" />
+      <stop offset="28%" stopColor="#ff1426" />
+      <stop offset="70%" stopColor="#d60012" />
+      <stop offset="100%" stopColor="#80000a" />
+    </linearGradient>
+
+    <!-- Spider-Man Deep Cobalt/Navy Blue 3D Extrusion Gradient -->
+    <linearGradient id="spideyBlue3D" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#1e54b8" />
+      <stop offset="50%" stopColor="#0e2f78" />
+      <stop offset="100%" stopColor="#051236" />
+    </linearGradient>
+
+    <!-- Golden Subtitle Gradient for "PORTOFOLIO" -->
+    <linearGradient id="spideyGoldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#fff9c4" />
+      <stop offset="35%" stopColor="#ffea00" />
+      <stop offset="75%" stopColor="#ffc107" />
+      <stop offset="100%" stopColor="#ff8f00" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="spideyLogoShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.85" />
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#ff1a2e" flood-opacity="0.35" />
+    </filter>
+
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.95" />
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#ffc107" flood-opacity="0.75" />
+    </filter>
+  </defs>
+
+  <style>
+    .spidey-title {
+      font-family: 'Oswald', 'Bebas Neue', 'Impact', sans-serif;
+      font-weight: 900;
+      font-style: italic;
+      font-size: 52px;
+      letter-spacing: 0.04em;
+      text-anchor: start;
+      text-transform: uppercase;
+    }
+    .spidey-sub {
+      font-family: 'Oswald', 'Impact', sans-serif;
+      font-weight: 800;
+      font-style: italic;
+      font-size: 20px;
+      letter-spacing: 0.32em;
+      text-anchor: start;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <g filter="url(#spideyLogoShadow)">
+    <!-- 3D Extrusion Layers (Dark Blue to Deep Navy Bevel Shadow) - Flat & Left Aligned -->
+    <!-- Layer 7: Deepest Shadow -->
+    <text x="4" y="70" class="spidey-title" fill="#030917" stroke="#030917" stroke-width="5" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+    <!-- Layer 6 -->
+    <text x="4" y="68" class="spidey-title" fill="#071738" stroke="#071738" stroke-width="4.5" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+    <!-- Layer 5 -->
+    <text x="4" y="66" class="spidey-title" fill="#0c2354" stroke="#0c2354" stroke-width="4" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+    <!-- Layer 4: Primary Metallic Blue -->
+    <text x="4" y="64" class="spidey-title" fill="url(#spideyBlue3D)" stroke="#12347a" stroke-width="3.5" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+    <!-- Layer 3: Vibrant Blue Highlight Ridge -->
+    <text x="4" y="62" class="spidey-title" fill="#1b4aa6" stroke="#1b4aa6" stroke-width="3" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+    <!-- Layer 2: Cobalt Bevel Edge -->
+    <text x="4" y="60" class="spidey-title" fill="#2963d4" stroke="#000000" stroke-width="2.5" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+    <!-- Layer 1: Dark Bevel Seam -->
+    <text x="4" y="58" class="spidey-title" fill="#140204" stroke="#140204" stroke-width="2" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+
+    <!-- Front Face Outline -->
+    <text x="4" y="56" class="spidey-title" fill="#000000" stroke="#0a0002" stroke-width="3.2" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+
+    <!-- Front Face: Glossy Spider-Man Scarlet Red -->
+    <text x="4" y="56" class="spidey-title" fill="url(#spideyRedGloss)" stroke="#ff4a5a" stroke-width="0.8" stroke-linejoin="round">
+      MICHAEL ANDRE A
+    </text>
+
+    <!-- Bottom Subtitle: PORTOFOLIO in Golden Yellow Italic (Flat & Left Aligned) -->
+    <g transform="translate(6, 96)" filter="url(#goldGlow)">
+      <!-- Black Outline for High Contrast -->
+      <text x="0" y="0" class="spidey-sub" fill="#000000" stroke="#000000" stroke-width="3.2" stroke-linejoin="round">
+        PORTOFOLIO
+      </text>
+      <!-- Rich Golden Face -->
+      <text x="0" y="0" class="spidey-sub" fill="url(#spideyGoldGrad)" stroke="#ffe57f" stroke-width="0.6">
+        PORTOFOLIO
+      </text>
+    </g>
+  </g>
+</svg>
